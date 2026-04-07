@@ -1,0 +1,34 @@
+{
+  "id": "module-curiosity",
+  "title": "Curiosity",
+  "purpose": "Unfreeze people through curiosity-driven experiments and build exploration energy.",
+  "rationale": "Adoption stalls when people do not know where to begin; curiosity activities reduce blank-chat anxiety and surface intrinsic motivation.",
+  "fit_in_phases": [
+    "phase_1: expedition",
+    "stage_01: curiosity",
+    "stage_02: basecamp"
+  ],
+  "linked_principles": [
+    "fascination_before_efficiency",
+    "harvest_curiosity_dont_manufacture_it",
+    "expedition_over_execution"
+  ],
+  "methods_activities": [
+    "exercise-wonder-audit",
+    "exercise-discovery-demos",
+    "exercise-explorer-identification"
+  ],
+  "maturity": "proven",
+  "related_patterns": [
+    "pattern-fascination-before-efficiency",
+    "pattern-expedition-style-discovery"
+  ],
+  "related_exercises": [
+    "exercise-wonder-audit",
+    "exercise-discovery-demos",
+    "exercise-explorer-identification"
+  ],
+  "related_cases": [
+    "case-sustained-adoption"
+  ]
+}

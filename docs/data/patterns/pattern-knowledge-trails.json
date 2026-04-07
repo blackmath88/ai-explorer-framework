@@ -1,0 +1,19 @@
+{
+  "id": "pattern-knowledge-trails",
+  "name": "knowledge_trails",
+  "purpose": "Discoveries become organizational capability when they are captured as reusable trails",
+  "maturity": "proven",
+  "operating_mechanism": [
+    "Record starting point and path taken",
+    "Store key learnings and outputs",
+    "Document next steps for reuse"
+  ],
+  "trail_components": [
+    "metadata",
+    "starting_point",
+    "path_taken",
+    "key_learnings",
+    "outputs_created",
+    "next_steps"
+  ]
+}

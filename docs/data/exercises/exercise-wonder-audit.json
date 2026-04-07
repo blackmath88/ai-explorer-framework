@@ -1,0 +1,15 @@
+{
+  "id": "exercise-wonder-audit",
+  "name": "wonder_audit",
+  "stage": "curiosity",
+  "type": "survey_and_conversation",
+  "purpose": "Surface natural curiosity",
+  "instructions": [
+    "Prepare the survey_and_conversation setup for the curiosity stage.",
+    "Run the activity to surface natural curiosity.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: curiosity_question_bank."
+  ],
+  "expected_output": "curiosity_question_bank",
+  "maturity": "proven"
+}

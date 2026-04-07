@@ -1,0 +1,8 @@
+{
+  "id": "case-trail-library-growth",
+  "name": "trail_library_growth",
+  "statement": "127 trails created, 30% reused 3+ times",
+  "source": "University of Basel deployment",
+  "confidence": "strong_story_asset",
+  "maturity": "internal_proven"
+}

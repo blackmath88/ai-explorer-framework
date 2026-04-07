@@ -1,0 +1,15 @@
+{
+  "id": "exercise-explorer-identification",
+  "name": "explorer_identification",
+  "stage": "curiosity",
+  "type": "cohort_selection",
+  "purpose": "Find naturally curious early adopters",
+  "instructions": [
+    "Prepare the cohort_selection setup for the curiosity stage.",
+    "Run the activity to find naturally curious early adopters.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: explorer_cohort."
+  ],
+  "expected_output": "explorer_cohort",
+  "maturity": "proven"
+}

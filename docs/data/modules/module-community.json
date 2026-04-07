@@ -1,0 +1,30 @@
+{
+  "id": "module-community",
+  "title": "Community Practice",
+  "purpose": "Use rituals, peer sharing, and guide roles to accelerate confidence and spread adoption.",
+  "rationale": "Community mechanisms turn isolated exploration into visible momentum and sustainable practice.",
+  "fit_in_phases": [
+    "stage_03: ignite",
+    "practice_01: discover",
+    "practice_03: pioneer"
+  ],
+  "linked_principles": [
+    "fascination_before_efficiency",
+    "trails_as_knowledge_artifacts"
+  ],
+  "methods_activities": [
+    "exercise-champion-recruitment",
+    "exercise-discovery-showcases"
+  ],
+  "maturity": "proven",
+  "related_patterns": [
+    "pattern-community-practice"
+  ],
+  "related_exercises": [
+    "exercise-champion-recruitment",
+    "exercise-discovery-showcases"
+  ],
+  "related_cases": [
+    "case-community-formation"
+  ]
+}

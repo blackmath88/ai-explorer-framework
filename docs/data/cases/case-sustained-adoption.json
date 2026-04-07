@@ -1,0 +1,8 @@
+{
+  "id": "case-sustained-adoption",
+  "name": "sustained_adoption",
+  "statement": "68% active usage at Month 12 vs 15% with traditional training",
+  "source": "University of Basel deployment",
+  "confidence": "needs_packaging_for_external_use",
+  "maturity": "internal_proven"
+}

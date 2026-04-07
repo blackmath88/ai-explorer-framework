@@ -1,0 +1,15 @@
+{
+  "id": "exercise-trail-capture-sprint",
+  "name": "trail_capture_sprint",
+  "stage": "ignite",
+  "type": "documentation_practice",
+  "purpose": "Convert discoveries into reusable knowledge artifacts",
+  "instructions": [
+    "Prepare the documentation_practice setup for the ignite stage.",
+    "Run the activity to convert discoveries into reusable knowledge artifacts.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: trail_library_growth."
+  ],
+  "expected_output": "trail_library_growth",
+  "maturity": "proven"
+}

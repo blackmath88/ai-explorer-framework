@@ -1,0 +1,15 @@
+{
+  "id": "exercise-discovery-showcases",
+  "name": "discovery_showcases",
+  "stage": "ignite",
+  "type": "community_ritual",
+  "purpose": "Celebrate discoveries and attract more explorers",
+  "instructions": [
+    "Prepare the community_ritual setup for the ignite stage.",
+    "Run the activity to celebrate discoveries and attract more explorers.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: social_proof_and_growth."
+  ],
+  "expected_output": "social_proof_and_growth",
+  "maturity": "proven"
+}

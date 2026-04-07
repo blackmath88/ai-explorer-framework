@@ -1,0 +1,551 @@
+{
+  "project_space": {
+    "name": "AI Explorer Framework",
+    "version": "4.2-working-space",
+    "mode": "brainstorm_and_build",
+    "status": "proven_core__expanding_modules",
+    "purpose": "Working data space for evolving the AI Explorer Framework inside ChatGPT Projects before repo modularization",
+    "origin": {
+      "created_by": "Achim Imboden (Miro)",
+      "organization": "University of Basel",
+      "deployment_scale": "6000_employees",
+      "last_updated_source": "2026-03-17"
+    },
+    "editing_rules": [
+      "Prefer adding small structured blocks over rewriting large sections",
+      "Keep ideas atomic and reusable",
+      "Mark maturity clearly: raw, draft, tested, proven",
+      "Capture open questions instead of forcing premature clarity",
+      "Treat this as a living data space, not a polished publication"
+    ]
+  },
+  "north_star": {
+    "tagline": "Harvesting fascination for AI adoption",
+    "one_sentence": "People adopt AI when discovery is delightful - make exploration irresistible and efficiency follows naturally",
+    "core_shift": {
+      "from": "efficiency_first_adoption",
+      "to": "fascination_first_adoption"
+    },
+    "maturity": "proven"
+  },
+  "problem_space": {
+    "status": "stable_core",
+    "items": [
+      {
+        "id": "problem_01",
+        "name": "low_adoption_despite_training",
+        "statement": "AI adoption stalls at 20-30% despite significant training investment",
+        "maturity": "proven"
+      },
+      {
+        "id": "problem_02",
+        "name": "wrong_change_paradigm",
+        "statement": "Organizations treat AI like enterprise software instead of like an exploratory medium",
+        "maturity": "proven"
+      },
+      {
+        "id": "problem_03",
+        "name": "blank_chat_anxiety",
+        "statement": "People do not know how to begin and freeze in front of open-ended AI interfaces",
+        "maturity": "proven"
+      },
+      {
+        "id": "problem_04",
+        "name": "training_retention_failure",
+        "statement": "Long trainings produce weak comprehension and weak transfer into practice",
+        "maturity": "tested"
+      },
+      {
+        "id": "problem_05",
+        "name": "compliance_theater",
+        "statement": "People perform adoption symbolically without building real confidence or practice",
+        "maturity": "tested"
+      },
+      {
+        "id": "problem_06",
+        "name": "personal_fears_block_work_adoption",
+        "statement": "Privacy fears, scam fears, and job fears spill into workplace adoption",
+        "maturity": "proven"
+      }
+    ]
+  },
+  "solution_hypothesis": {
+    "status": "stable_core",
+    "items": [
+      {
+        "id": "solution_01",
+        "name": "expedition_style_discovery",
+        "statement": "AI adoption works better when people are guided through safe, curiosity-driven exploration",
+        "maturity": "proven"
+      },
+      {
+        "id": "solution_02",
+        "name": "knowledge_trails",
+        "statement": "Discoveries become organizational capability when they are captured as reusable trails",
+        "maturity": "proven"
+      },
+      {
+        "id": "solution_03",
+        "name": "community_practice",
+        "statement": "Community rituals and peer sharing accelerate confidence and spread adoption patterns organically",
+        "maturity": "proven"
+      },
+      {
+        "id": "solution_04",
+        "name": "delayed_productivity_metrics",
+        "statement": "Productivity metrics should appear only after fascination and practice have taken root",
+        "maturity": "proven"
+      }
+    ]
+  },
+  "principles": {
+    "status": "stable_core",
+    "items": [
+      {
+        "id": "principle_01",
+        "name": "fascination_before_efficiency",
+        "statement": "Discovery creates intrinsic motivation; efficiency emerges after confidence",
+        "maturity": "proven",
+        "where_it_fits": [
+          "all_phases"
+        ]
+      },
+      {
+        "id": "principle_02",
+        "name": "expedition_over_execution",
+        "statement": "Safe wandering builds confidence; forced marches create resistance",
+        "maturity": "proven",
+        "where_it_fits": [
+          "phase_1"
+        ]
+      },
+      {
+        "id": "principle_03",
+        "name": "harvest_curiosity_dont_manufacture_it",
+        "statement": "People already want to explore AI; the task is to channel this energy productively",
+        "maturity": "proven",
+        "where_it_fits": [
+          "phase_1"
+        ]
+      },
+      {
+        "id": "principle_04",
+        "name": "work_personal_integration",
+        "statement": "Safe personal exploration supports transferable work confidence",
+        "maturity": "proven",
+        "where_it_fits": [
+          "phase_1",
+          "phase_2"
+        ]
+      },
+      {
+        "id": "principle_05",
+        "name": "trails_as_knowledge_artifacts",
+        "statement": "Exploration becomes capability when it is documented and shared",
+        "maturity": "proven",
+        "where_it_fits": [
+          "phase_1",
+          "phase_2"
+        ]
+      },
+      {
+        "id": "principle_06",
+        "name": "creativity_unlocks_capability",
+        "statement": "AI becomes more useful when people learn to vary perspective, constraints, and approaches",
+        "maturity": "raw",
+        "where_it_fits": [
+          "curiosity",
+          "ignite",
+          "discover",
+          "expand"
+        ],
+        "note": "candidate new principle to develop further"
+      }
+    ]
+  },
+  "framework_map": {
+    "status": "stable_structure",
+    "phases": [
+      {
+        "id": "phase_1",
+        "name": "expedition",
+        "purpose": "Create conditions for fascination and capture discoveries",
+        "duration": "3-4_months",
+        "rule": "no_efficiency_metrics",
+        "maturity": "proven"
+      },
+      {
+        "id": "phase_2",
+        "name": "harvest",
+        "purpose": "Sustain discovery as an ongoing practice and innovation system",
+        "duration": "ongoing",
+        "maturity": "tested"
+      }
+    ],
+    "stage_blocks": [
+      {
+        "id": "stage_01",
+        "name": "curiosity",
+        "phase": "phase_1",
+        "purpose": "Unfreeze through curiosity-driven experiments",
+        "maturity": "proven"
+      },
+      {
+        "id": "stage_02",
+        "name": "basecamp",
+        "phase": "phase_1",
+        "purpose": "Build safe infrastructure for experimentation",
+        "maturity": "proven"
+      },
+      {
+        "id": "stage_03",
+        "name": "ignite",
+        "phase": "phase_1",
+        "purpose": "Scale experimentation through guided expeditions",
+        "maturity": "proven"
+      },
+      {
+        "id": "stage_04",
+        "name": "scale",
+        "phase": "phase_1",
+        "purpose": "Transition proven patterns to enterprise adoption",
+        "maturity": "tested"
+      },
+      {
+        "id": "practice_01",
+        "name": "discover",
+        "phase": "phase_2",
+        "purpose": "Community-driven experimentation and sharing",
+        "maturity": "tested"
+      },
+      {
+        "id": "practice_02",
+        "name": "expand",
+        "phase": "phase_2",
+        "purpose": "Experiment with new AI capabilities",
+        "maturity": "draft"
+      },
+      {
+        "id": "practice_03",
+        "name": "pioneer",
+        "phase": "phase_2",
+        "purpose": "Innovation as organizational identity",
+        "maturity": "draft"
+      }
+    ]
+  },
+  "activity_library": {
+    "status": "working_module",
+    "items": [
+      {
+        "id": "activity_01",
+        "name": "wonder_audit",
+        "stage": "curiosity",
+        "type": "survey_and_conversation",
+        "purpose": "Surface natural curiosity",
+        "output": "curiosity_question_bank",
+        "maturity": "proven"
+      },
+      {
+        "id": "activity_02",
+        "name": "discovery_demos",
+        "stage": "curiosity",
+        "type": "live_demo",
+        "purpose": "Create fast comprehension and excitement",
+        "output": "baseline_interest_and_confidence",
+        "maturity": "proven"
+      },
+      {
+        "id": "activity_03",
+        "name": "explorer_identification",
+        "stage": "curiosity",
+        "type": "cohort_selection",
+        "purpose": "Find naturally curious early adopters",
+        "output": "explorer_cohort",
+        "maturity": "proven"
+      },
+      {
+        "id": "activity_04",
+        "name": "sandbox_setup",
+        "stage": "basecamp",
+        "type": "infrastructure",
+        "purpose": "Create safe environment for experimentation",
+        "output": "sandbox",
+        "maturity": "proven"
+      },
+      {
+        "id": "activity_05",
+        "name": "champion_recruitment",
+        "stage": "basecamp",
+        "type": "community_enablement",
+        "purpose": "Train guides who facilitate instead of teach",
+        "output": "expedition_guides",
+        "maturity": "tested"
+      },
+      {
+        "id": "activity_06",
+        "name": "guided_expeditions",
+        "stage": "ignite",
+        "type": "small_group_session",
+        "purpose": "Generate structured exploration and new trails",
+        "output": "new_trails",
+        "maturity": "proven"
+      },
+      {
+        "id": "activity_07",
+        "name": "discovery_showcases",
+        "stage": "ignite",
+        "type": "community_ritual",
+        "purpose": "Celebrate discoveries and attract more explorers",
+        "output": "social_proof_and_growth",
+        "maturity": "proven"
+      },
+      {
+        "id": "activity_08",
+        "name": "trail_capture_sprint",
+        "stage": "ignite",
+        "type": "documentation_practice",
+        "purpose": "Convert discoveries into reusable knowledge artifacts",
+        "output": "trail_library_growth",
+        "maturity": "proven"
+      }
+    ]
+  },
+  "module_candidates": {
+    "status": "expansion_space",
+    "items": [
+      {
+        "id": "module_01",
+        "name": "creative_exploration",
+        "state": "priority_candidate",
+        "why_now": "Creativity is implicit in the framework but not yet explicit as a teachable capability",
+        "fit": "very_high",
+        "maturity": "raw",
+        "possible_subblocks": [
+          "creativity_theory_lightweight",
+          "design_thinking_links",
+          "double_diamond_for_ai_exploration",
+          "warmup_exercises",
+          "constraint_play",
+          "perspective_shift_methods",
+          "prompt_remix_formats"
+        ]
+      },
+      {
+        "id": "module_02",
+        "name": "discovery_interfaces",
+        "state": "already_present_but_expandable",
+        "fit": "very_high",
+        "maturity": "tested"
+      },
+      {
+        "id": "module_03",
+        "name": "trail_ecosystem",
+        "state": "needs_operational_detail",
+        "fit": "very_high",
+        "maturity": "tested"
+      },
+      {
+        "id": "module_04",
+        "name": "governance_for_exploration",
+        "state": "needs_packaging",
+        "fit": "high",
+        "maturity": "proven"
+      }
+    ]
+  },
+  "discovery_interfaces": {
+    "status": "good_material__needs_further_design",
+    "items": [
+      {
+        "id": "interface_01",
+        "name": "trail_feeds",
+        "purpose": "Show what others discovered in related exploration paths",
+        "maturity": "draft"
+      },
+      {
+        "id": "interface_02",
+        "name": "random_discovery",
+        "purpose": "Introduce safe serendipity",
+        "maturity": "draft"
+      },
+      {
+        "id": "interface_03",
+        "name": "constraint_playgrounds",
+        "purpose": "Use creative limitation to guide exploration",
+        "maturity": "raw"
+      },
+      {
+        "id": "interface_04",
+        "name": "breadcrumb_trails",
+        "purpose": "Visualize a user journey across explorations",
+        "maturity": "draft"
+      },
+      {
+        "id": "interface_05",
+        "name": "discovery_wall",
+        "purpose": "Create visible social proof through moments of surprise",
+        "maturity": "draft"
+      }
+    ]
+  },
+  "trail_system": {
+    "status": "strong_core",
+    "definition": "A saved exploration path with context, discoveries, learnings, and next steps",
+    "components": [
+      "metadata",
+      "starting_point",
+      "path_taken",
+      "key_learnings",
+      "outputs_created",
+      "next_steps"
+    ],
+    "maturity": "proven",
+    "to_expand": [
+      "trail_quality_rules",
+      "trail_template_variants",
+      "fork_and_remix_model",
+      "how_trails_link_to_playbooks",
+      "community_rating_model"
+    ]
+  },
+  "work_personal_integration": {
+    "status": "strategic_strength",
+    "core_claim": "Personal AI fears block work adoption; safe personal exploration builds transferable confidence",
+    "maturity": "proven",
+    "subtopics": [
+      "allowed_personal_exploration",
+      "transfer_patterns",
+      "boundary_enforcement",
+      "common_personal_fears"
+    ]
+  },
+  "measurement": {
+    "status": "strong_core",
+    "split": {
+      "expedition_phase": "experience_and_behavior_metrics",
+      "harvest_phase": "outcome_and_productivity_metrics"
+    },
+    "maturity": "proven",
+    "not_to_measure_early": [
+      "roi",
+      "usage_quotas",
+      "task_efficiency",
+      "completion_rates",
+      "productivity_gains"
+    ]
+  },
+  "proof_points": {
+    "status": "valuable_but_should_be_handled_carefully",
+    "source": "University of Basel deployment",
+    "maturity": "internal_proven",
+    "items": [
+      {
+        "id": "proof_01",
+        "name": "learning_effectiveness",
+        "statement": "87% comprehension in 10-minute exploration vs 40% in 2-hour training",
+        "confidence": "needs_packaging_for_external_use"
+      },
+      {
+        "id": "proof_02",
+        "name": "sustained_adoption",
+        "statement": "68% active usage at Month 12 vs 15% with traditional training",
+        "confidence": "needs_packaging_for_external_use"
+      },
+      {
+        "id": "proof_03",
+        "name": "community_formation",
+        "statement": "40+ member self-organizing community",
+        "confidence": "strong_story_asset"
+      },
+      {
+        "id": "proof_04",
+        "name": "trail_library_growth",
+        "statement": "127 trails created, 30% reused 3+ times",
+        "confidence": "strong_story_asset"
+      },
+      {
+        "id": "proof_05",
+        "name": "pizza_agent_case",
+        "statement": "Playful experiment became genuine workflow improvement and later training standard",
+        "confidence": "excellent_signature_story"
+      }
+    ]
+  },
+  "objections_and_responses": {
+    "status": "reusable_asset",
+    "items": [
+      "we_need_productivity_now",
+      "this_is_too_expensive",
+      "people_will_waste_time",
+      "we_are_too_regulated",
+      "we_tried_exploration_before"
+    ],
+    "maturity": "tested"
+  },
+  "research_and_expansion": {
+    "status": "open_space",
+    "priority_questions": [
+      {
+        "id": "rq_01",
+        "question": "How should creativity be integrated as a formal module in the framework?",
+        "priority": "high"
+      },
+      {
+        "id": "rq_02",
+        "question": "Which creativity methods best fit AI adoption: design thinking, double diamond, lateral thinking, or lightweight hybrids?",
+        "priority": "high"
+      },
+      {
+        "id": "rq_03",
+        "question": "How much structure supports creativity before it becomes restrictive?",
+        "priority": "high"
+      },
+      {
+        "id": "rq_04",
+        "question": "What interface patterns create productive serendipity without overload?",
+        "priority": "medium"
+      },
+      {
+        "id": "rq_05",
+        "question": "What predicts explorer vs structure-seeker behavior in adoption journeys?",
+        "priority": "medium"
+      }
+    ]
+  },
+  "next_build_targets": {
+    "status": "action_space",
+    "items": [
+      {
+        "id": "build_01",
+        "name": "creativity_module_v0",
+        "type": "new_module",
+        "priority": "highest"
+      },
+      {
+        "id": "build_02",
+        "name": "exercise_library",
+        "type": "supporting_module",
+        "priority": "high"
+      },
+      {
+        "id": "build_03",
+        "name": "trail_template_variants",
+        "type": "operational_detail",
+        "priority": "high"
+      },
+      {
+        "id": "build_04",
+        "name": "discovery_interface_patterns",
+        "type": "ux_concept_space",
+        "priority": "high"
+      },
+      {
+        "id": "build_05",
+        "name": "repo_modularization_plan",
+        "type": "technical_packaging",
+        "priority": "later"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "module-trails",
+  "title": "Trail System",
+  "purpose": "Capture discoveries as reusable knowledge trails that can be reused, remixed, and scaled.",
+  "rationale": "Exploration becomes organizational capability only when learnings are documented as artifacts.",
+  "fit_in_phases": [
+    "stage_03: ignite",
+    "phase_2: harvest"
+  ],
+  "linked_principles": [
+    "trails_as_knowledge_artifacts"
+  ],
+  "methods_activities": [
+    "exercise-trail-capture-sprint"
+  ],
+  "maturity": "proven",
+  "trail_definition": "A saved exploration path with context, discoveries, learnings, and next steps",
+  "trail_components": [
+    "metadata",
+    "starting_point",
+    "path_taken",
+    "key_learnings",
+    "outputs_created",
+    "next_steps"
+  ],
+  "to_expand": [
+    "trail_quality_rules",
+    "trail_template_variants",
+    "fork_and_remix_model",
+    "how_trails_link_to_playbooks",
+    "community_rating_model"
+  ],
+  "related_patterns": [
+    "pattern-knowledge-trails"
+  ],
+  "related_exercises": [
+    "exercise-trail-capture-sprint"
+  ],
+  "related_cases": [
+    "case-trail-library-growth"
+  ]
+}

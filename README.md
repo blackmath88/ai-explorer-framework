@@ -1,33 +1,36 @@
 # ai-explorer-framework
 
-A static, JSON-driven framework site designed for GitHub Pages.
+Static GitHub Pages viewer for the **AI Explorer Framework**, driven entirely by JSON files in `docs/data`.
 
-## Project structure
+## Content model (source of truth)
 
-- `docs/index.html` – page shell and app mounting points
-- `docs/styles.css` – base styles
-- `docs/app.js` – vanilla JS renderer that reads JSON data
-- `docs/data/` – source-of-truth content files and extension folders
+- `docs/data/framework-working-space.json` = untouched reference source.
+- `docs/data/framework-overview.json` = entry point for the viewer (identity, north star, principles, phases, module index, selected proof IDs, roadmap).
+- `docs/data/framework-map.json` = phase and stage structure.
+- `docs/data/glossary.json` = lightweight framework terms.
+- `docs/data/modules/*.json` = module detail files (purpose, rationale, phase fit, principles, methods, maturity, related links).
+- `docs/data/patterns/*.json` = reusable operating patterns derived conservatively from source.
+- `docs/data/exercises/*.json` = runnable exercises derived from activity library.
+- `docs/data/cases/*.json` = proof-point case files with confidence/caution preserved.
 
 ## Local preview
 
-Because the app loads JSON files, run a local static server from the repo root:
+Run a static server from repo root:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then open:
+Open: <http://localhost:8000/docs/>
 
-- <http://localhost:8000/docs/>
+## GitHub Pages publish (/docs)
 
-## Publish on GitHub Pages
-
-1. Push this repository to GitHub.
-2. In **Settings → Pages**, set:
-   - **Source**: `Deploy from a branch`
-   - **Branch**: `main` (or your default branch)
+1. Push repository to GitHub.
+2. Go to **Settings → Pages**.
+3. Set:
+   - **Source**: Deploy from a branch
+   - **Branch**: main (or default)
    - **Folder**: `/docs`
-3. Save and wait for deployment.
+4. Save.
 
-Your site will publish from the `docs/` directory.
+The site is fully static (vanilla HTML/CSS/JS, no backend).

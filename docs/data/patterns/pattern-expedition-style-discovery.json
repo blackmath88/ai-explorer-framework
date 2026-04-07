@@ -1,0 +1,15 @@
+{
+  "id": "pattern-expedition-style-discovery",
+  "name": "expedition_style_discovery",
+  "purpose": "AI adoption works better when people are guided through safe, curiosity-driven exploration",
+  "maturity": "proven",
+  "signals": [
+    "blank_chat_anxiety",
+    "low_adoption_despite_training"
+  ],
+  "operating_mechanism": [
+    "Guide exploration in safe cohorts",
+    "Use staged activities over lecture-heavy training",
+    "Capture discoveries for reuse"
+  ]
+}

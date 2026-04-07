@@ -8,30 +8,18 @@
   </head>
   <body>
     <header class="site-header">
-      <h1>AI Explorer Framework</h1>
-      <p>JSON-driven framework viewer (static, vanilla HTML/CSS/JS).</p>
+      <div>
+        <h1 id="framework-name">AI Explorer Framework</h1>
+        <p id="tagline"></p>
+      </div>
+      <a href="#home" class="home-link">Explorer Home</a>
     </header>
 
-    <main class="layout">
-      <section>
-        <h2>Framework Overview</h2>
-        <div id="framework-overview" class="card"></div>
-      </section>
+    <main id="app" class="app-shell" aria-live="polite"></main>
 
-      <section>
-        <h2>Framework Map</h2>
-        <div id="framework-map" class="card"></div>
-      </section>
-
-      <section>
-        <h2>Glossary</h2>
-        <div id="glossary" class="card"></div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <small>Data source: <code>/docs/data/*.json</code></small>
-    </footer>
+    <template id="badge-template">
+      <span class="badge"></span>
+    </template>
 
     <script src="./app.js" defer></script>
   </body>

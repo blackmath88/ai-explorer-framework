@@ -1,0 +1,30 @@
+{
+  "id": "module-work-personal",
+  "title": "Work-Personal Integration",
+  "purpose": "Use safe personal exploration to build confidence that transfers into workplace AI use.",
+  "rationale": "Personal fears often block work adoption; explicit integration unlocks transfer.",
+  "fit_in_phases": [
+    "phase_1: expedition",
+    "phase_2: harvest"
+  ],
+  "linked_principles": [
+    "work_personal_integration"
+  ],
+  "methods_activities": [
+    "allowed_personal_exploration",
+    "transfer_patterns",
+    "boundary_enforcement",
+    "common_personal_fears"
+  ],
+  "maturity": "proven",
+  "core_claim": "Personal AI fears block work adoption; safe personal exploration builds transferable confidence",
+  "related_patterns": [
+    "pattern-work-personal-integration"
+  ],
+  "related_exercises": [
+    "exercise-wonder-audit"
+  ],
+  "related_cases": [
+    "case-sustained-adoption"
+  ]
+}

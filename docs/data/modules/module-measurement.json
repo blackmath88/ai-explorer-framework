@@ -1,0 +1,36 @@
+{
+  "id": "module-measurement",
+  "title": "Measurement",
+  "purpose": "Separate early experience/behavior signals from later outcome/productivity metrics.",
+  "rationale": "Premature efficiency pressure reduces exploration quality and slows capability development.",
+  "fit_in_phases": [
+    "phase_1: expedition",
+    "phase_2: harvest"
+  ],
+  "linked_principles": [
+    "fascination_before_efficiency"
+  ],
+  "methods_activities": [
+    "metric_split_design"
+  ],
+  "maturity": "proven",
+  "split": {
+    "expedition_phase": "experience_and_behavior_metrics",
+    "harvest_phase": "outcome_and_productivity_metrics"
+  },
+  "not_to_measure_early": [
+    "roi",
+    "usage_quotas",
+    "task_efficiency",
+    "completion_rates",
+    "productivity_gains"
+  ],
+  "related_patterns": [
+    "pattern-delayed-productivity-metrics"
+  ],
+  "related_exercises": [],
+  "related_cases": [
+    "case-sustained-adoption",
+    "case-learning-effectiveness"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "case-learning-effectiveness",
+  "name": "learning_effectiveness",
+  "statement": "87% comprehension in 10-minute exploration vs 40% in 2-hour training",
+  "source": "University of Basel deployment",
+  "confidence": "needs_packaging_for_external_use",
+  "maturity": "internal_proven"
+}
