@@ -1,0 +1,12 @@
+{
+  "terms": [
+    {
+      "term": "Module",
+      "definition": "A learning unit or capability area in the framework."
+    },
+    {
+      "term": "Pattern",
+      "definition": "A reusable approach that can be applied across modules."
+    }
+  ]
+}

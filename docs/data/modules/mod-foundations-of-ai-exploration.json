@@ -1,0 +1,19 @@
+{
+  "id": "mod-foundations-of-ai-exploration",
+  "title": "Foundations of AI Exploration",
+  "summary": "Builds core skills for exploring AI capabilities, limits, and workflows.",
+  "learning_outcomes": [
+    "Identify key framework entities and how they relate",
+    "Apply a basic exploration loop to a new AI task",
+    "Document observations in a reusable format"
+  ],
+  "pattern_ids": ["pat-observe-hypothesize-iterate"],
+  "exercise_ids": ["ex-map-a-workflow"],
+  "case_ids": ["case-support-assistant-discovery"],
+  "metadata": {
+    "difficulty": "intro",
+    "estimated_minutes": 45,
+    "status": "draft",
+    "tags": ["foundations", "exploration", "workflow"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "framework_id": "aef-v1",
+  "name": "AI Explorer Framework",
+  "version": "1.0.0",
+  "last_updated": "2026-04-07",
+  "description": "Entry point for navigating modules, patterns, exercises, and cases in a JSON-driven static site.",
+  "taxonomy": {
+    "module_prefix": "mod-",
+    "pattern_prefix": "pat-",
+    "exercise_prefix": "ex-",
+    "case_prefix": "case-"
+  },
+  "collections": {
+    "modules": [
+      {
+        "id": "mod-foundations-of-ai-exploration",
+        "title": "Foundations of AI Exploration",
+        "summary": "Introduces the core mindset, vocabulary, and workflow used throughout the framework.",
+        "file": "./modules/mod-foundations-of-ai-exploration.json",
+        "status": "draft",
+        "tags": ["foundations", "workflow", "navigation"]
+      }
+    ],
+    "patterns": [],
+    "exercises": [],
+    "cases": []
+  },
+  "render_hints": {
+    "default_module_sort": "title",
+    "default_pattern_sort": "id",
+    "show_status_badges": true
+  }
+}

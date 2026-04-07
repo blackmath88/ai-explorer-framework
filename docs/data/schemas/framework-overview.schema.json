@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FrameworkOverview",
+  "type": "object",
+  "required": ["title", "description", "objectives"],
+  "properties": {
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "objectives": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
