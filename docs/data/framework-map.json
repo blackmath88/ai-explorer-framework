@@ -1,0 +1,10 @@
+{
+  "title": "Framework Map",
+  "description": "Top-level map of core entities.",
+  "nodes": [
+    { "id": "M", "label": "Modules" },
+    { "id": "P", "label": "Patterns" },
+    { "id": "E", "label": "Exercises" },
+    { "id": "C", "label": "Cases" }
+  ]
+}
