@@ -1,0 +1,64 @@
+{
+  "id": "module-interfaces",
+  "title": "Discovery Interfaces",
+  "purpose": "Design interfaces that guide exploration, serendipity, and visible learning journeys.",
+  "rationale": "Interface patterns can reduce anxiety and improve discovery quality without over-controlling users.",
+  "fit_in_phases": [
+    "stage_01: curiosity",
+    "practice_01: discover",
+    "practice_02: expand"
+  ],
+  "linked_principles": [
+    "expedition_over_execution",
+    "creativity_unlocks_capability"
+  ],
+  "methods_activities": [
+    "trail_feeds",
+    "random_discovery",
+    "constraint_playgrounds",
+    "breadcrumb_trails",
+    "discovery_wall"
+  ],
+  "maturity": "tested",
+  "interface_items": [
+    {
+      "id": "interface_01",
+      "name": "trail_feeds",
+      "purpose": "Show what others discovered in related exploration paths",
+      "maturity": "draft"
+    },
+    {
+      "id": "interface_02",
+      "name": "random_discovery",
+      "purpose": "Introduce safe serendipity",
+      "maturity": "draft"
+    },
+    {
+      "id": "interface_03",
+      "name": "constraint_playgrounds",
+      "purpose": "Use creative limitation to guide exploration",
+      "maturity": "raw"
+    },
+    {
+      "id": "interface_04",
+      "name": "breadcrumb_trails",
+      "purpose": "Visualize a user journey across explorations",
+      "maturity": "draft"
+    },
+    {
+      "id": "interface_05",
+      "name": "discovery_wall",
+      "purpose": "Create visible social proof through moments of surprise",
+      "maturity": "draft"
+    }
+  ],
+  "related_patterns": [
+    "pattern-expedition-style-discovery"
+  ],
+  "related_exercises": [
+    "exercise-guided-expeditions"
+  ],
+  "related_cases": [
+    "case-pizza-agent-case"
+  ]
+}

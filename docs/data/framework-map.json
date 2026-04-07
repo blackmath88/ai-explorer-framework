@@ -1,0 +1,71 @@
+{
+  "status": "stable_structure",
+  "phases": [
+    {
+      "id": "phase_1",
+      "name": "expedition",
+      "purpose": "Create conditions for fascination and capture discoveries",
+      "duration": "3-4_months",
+      "rule": "no_efficiency_metrics",
+      "maturity": "proven"
+    },
+    {
+      "id": "phase_2",
+      "name": "harvest",
+      "purpose": "Sustain discovery as an ongoing practice and innovation system",
+      "duration": "ongoing",
+      "maturity": "tested"
+    }
+  ],
+  "stage_blocks": [
+    {
+      "id": "stage_01",
+      "name": "curiosity",
+      "phase": "phase_1",
+      "purpose": "Unfreeze through curiosity-driven experiments",
+      "maturity": "proven"
+    },
+    {
+      "id": "stage_02",
+      "name": "basecamp",
+      "phase": "phase_1",
+      "purpose": "Build safe infrastructure for experimentation",
+      "maturity": "proven"
+    },
+    {
+      "id": "stage_03",
+      "name": "ignite",
+      "phase": "phase_1",
+      "purpose": "Scale experimentation through guided expeditions",
+      "maturity": "proven"
+    },
+    {
+      "id": "stage_04",
+      "name": "scale",
+      "phase": "phase_1",
+      "purpose": "Transition proven patterns to enterprise adoption",
+      "maturity": "tested"
+    },
+    {
+      "id": "practice_01",
+      "name": "discover",
+      "phase": "phase_2",
+      "purpose": "Community-driven experimentation and sharing",
+      "maturity": "tested"
+    },
+    {
+      "id": "practice_02",
+      "name": "expand",
+      "phase": "phase_2",
+      "purpose": "Experiment with new AI capabilities",
+      "maturity": "draft"
+    },
+    {
+      "id": "practice_03",
+      "name": "pioneer",
+      "phase": "phase_2",
+      "purpose": "Innovation as organizational identity",
+      "maturity": "draft"
+    }
+  ]
+}

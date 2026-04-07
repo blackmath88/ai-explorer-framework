@@ -1,0 +1,87 @@
+:root {
+  --bg: #07111f;
+  --panel: #0e1b30;
+  --panel-alt: #132542;
+  --text: #eaf0ff;
+  --muted: #a7b3d1;
+  --border: #294269;
+  --accent: #76a9ff;
+  --raw: #f4a261;
+  --draft: #8ecae6;
+  --tested: #ffd166;
+  --proven: #80ed99;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(circle at 20% 0%, #12233f 0%, var(--bg) 40%);
+  color: var(--text);
+}
+
+.site-header {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.site-header p { margin: 0.25rem 0 0; color: var(--muted); }
+.home-link { color: var(--accent); text-decoration: none; font-weight: 600; }
+
+.app-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+.section, .panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.module-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--panel-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.9rem;
+}
+
+.meta { color: var(--muted); font-size: 0.92rem; }
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-left: 0.45rem;
+  border: 1px solid transparent;
+}
+.badge.raw { background: #3a2517; border-color: #8f5a2f; color: var(--raw); }
+.badge.draft { background: #14324a; border-color: #2e6b99; color: var(--draft); }
+.badge.tested { background: #3a3218; border-color: #8d7a2a; color: var(--tested); }
+.badge.proven { background: #123023; border-color: #2f7e52; color: var(--proven); }
+
+.list { margin: 0.35rem 0 0; padding-left: 1.2rem; }
+.list li { margin: 0.3rem 0; }
+
+.back-link { color: var(--accent); text-decoration: none; }
+.kv { margin: 0.45rem 0; }
+.kv strong { color: #c9d9ff; }

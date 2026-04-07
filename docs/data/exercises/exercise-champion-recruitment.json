@@ -1,0 +1,15 @@
+{
+  "id": "exercise-champion-recruitment",
+  "name": "champion_recruitment",
+  "stage": "basecamp",
+  "type": "community_enablement",
+  "purpose": "Train guides who facilitate instead of teach",
+  "instructions": [
+    "Prepare the community_enablement setup for the basecamp stage.",
+    "Run the activity to train guides who facilitate instead of teach.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: expedition_guides."
+  ],
+  "expected_output": "expedition_guides",
+  "maturity": "tested"
+}

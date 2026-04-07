@@ -1,0 +1,15 @@
+{
+  "id": "exercise-sandbox-setup",
+  "name": "sandbox_setup",
+  "stage": "basecamp",
+  "type": "infrastructure",
+  "purpose": "Create safe environment for experimentation",
+  "instructions": [
+    "Prepare the infrastructure setup for the basecamp stage.",
+    "Run the activity to create safe environment for experimentation.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: sandbox."
+  ],
+  "expected_output": "sandbox",
+  "maturity": "proven"
+}

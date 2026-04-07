@@ -1,0 +1,15 @@
+{
+  "id": "exercise-guided-expeditions",
+  "name": "guided_expeditions",
+  "stage": "ignite",
+  "type": "small_group_session",
+  "purpose": "Generate structured exploration and new trails",
+  "instructions": [
+    "Prepare the small_group_session setup for the ignite stage.",
+    "Run the activity to generate structured exploration and new trails.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: new_trails."
+  ],
+  "expected_output": "new_trails",
+  "maturity": "proven"
+}

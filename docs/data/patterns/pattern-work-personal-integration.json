@@ -1,0 +1,10 @@
+{
+  "id": "pattern-work-personal-integration",
+  "name": "work_personal_integration",
+  "purpose": "Safe personal exploration supports transferable work confidence",
+  "maturity": "proven",
+  "where_it_fits": [
+    "phase_1",
+    "phase_2"
+  ]
+}

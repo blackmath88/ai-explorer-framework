@@ -1,0 +1,338 @@
+{
+  "framework_identity": {
+    "name": "AI Explorer Framework",
+    "version": "4.2-working-space",
+    "mode": "brainstorm_and_build",
+    "status": "proven_core__expanding_modules",
+    "purpose": "Working data space for evolving the AI Explorer Framework inside ChatGPT Projects before repo modularization",
+    "origin": {
+      "created_by": "Achim Imboden (Miro)",
+      "organization": "University of Basel",
+      "deployment_scale": "6000_employees",
+      "last_updated_source": "2026-03-17"
+    }
+  },
+  "north_star": {
+    "tagline": "Harvesting fascination for AI adoption",
+    "one_sentence": "People adopt AI when discovery is delightful - make exploration irresistible and efficiency follows naturally",
+    "maturity": "proven"
+  },
+  "core_shift": {
+    "from": "efficiency_first_adoption",
+    "to": "fascination_first_adoption"
+  },
+  "top_principles": [
+    {
+      "id": "principle_01",
+      "name": "fascination_before_efficiency",
+      "statement": "Discovery creates intrinsic motivation; efficiency emerges after confidence",
+      "maturity": "proven"
+    },
+    {
+      "id": "principle_02",
+      "name": "expedition_over_execution",
+      "statement": "Safe wandering builds confidence; forced marches create resistance",
+      "maturity": "proven"
+    },
+    {
+      "id": "principle_03",
+      "name": "harvest_curiosity_dont_manufacture_it",
+      "statement": "People already want to explore AI; the task is to channel this energy productively",
+      "maturity": "proven"
+    },
+    {
+      "id": "principle_04",
+      "name": "work_personal_integration",
+      "statement": "Safe personal exploration supports transferable work confidence",
+      "maturity": "proven"
+    },
+    {
+      "id": "principle_05",
+      "name": "trails_as_knowledge_artifacts",
+      "statement": "Exploration becomes capability when it is documented and shared",
+      "maturity": "proven"
+    },
+    {
+      "id": "principle_06",
+      "name": "creativity_unlocks_capability",
+      "statement": "AI becomes more useful when people learn to vary perspective, constraints, and approaches",
+      "maturity": "raw"
+    }
+  ],
+  "phase_summary": [
+    {
+      "id": "phase_1",
+      "name": "expedition",
+      "purpose": "Create conditions for fascination and capture discoveries",
+      "duration": "3-4_months",
+      "rule": "no_efficiency_metrics",
+      "maturity": "proven"
+    },
+    {
+      "id": "phase_2",
+      "name": "harvest",
+      "purpose": "Sustain discovery as an ongoing practice and innovation system",
+      "duration": "ongoing",
+      "rule": null,
+      "maturity": "tested"
+    }
+  ],
+  "module_index": [
+    {
+      "id": "module-curiosity",
+      "title": "Curiosity",
+      "file": "./modules/module-curiosity.json",
+      "maturity": "proven",
+      "phase_fit": [
+        "curiosity",
+        "basecamp"
+      ]
+    },
+    {
+      "id": "module-creativity",
+      "title": "Creativity",
+      "file": "./modules/module-creativity.json",
+      "maturity": "raw",
+      "phase_fit": [
+        "curiosity",
+        "ignite",
+        "discover",
+        "expand"
+      ]
+    },
+    {
+      "id": "module-community",
+      "title": "Community Practice",
+      "file": "./modules/module-community.json",
+      "maturity": "proven",
+      "phase_fit": [
+        "ignite",
+        "discover",
+        "pioneer"
+      ]
+    },
+    {
+      "id": "module-trails",
+      "title": "Trail System",
+      "file": "./modules/module-trails.json",
+      "maturity": "proven",
+      "phase_fit": [
+        "ignite",
+        "harvest"
+      ]
+    },
+    {
+      "id": "module-governance",
+      "title": "Governance for Exploration",
+      "file": "./modules/module-governance.json",
+      "maturity": "proven",
+      "phase_fit": [
+        "basecamp",
+        "scale"
+      ]
+    },
+    {
+      "id": "module-measurement",
+      "title": "Measurement",
+      "file": "./modules/module-measurement.json",
+      "maturity": "proven",
+      "phase_fit": [
+        "expedition",
+        "harvest"
+      ]
+    },
+    {
+      "id": "module-interfaces",
+      "title": "Discovery Interfaces",
+      "file": "./modules/module-interfaces.json",
+      "maturity": "tested",
+      "phase_fit": [
+        "curiosity",
+        "discover",
+        "expand"
+      ]
+    },
+    {
+      "id": "module-work-personal",
+      "title": "Work-Personal Integration",
+      "file": "./modules/module-work-personal.json",
+      "maturity": "proven",
+      "phase_fit": [
+        "curiosity",
+        "basecamp",
+        "harvest"
+      ]
+    },
+    {
+      "id": "module-scaling",
+      "title": "Scaling Adoption",
+      "file": "./modules/module-scaling.json",
+      "maturity": "tested",
+      "phase_fit": [
+        "scale",
+        "discover",
+        "pioneer"
+      ]
+    }
+  ],
+  "pattern_index": [
+    {
+      "id": "pattern-expedition-style-discovery",
+      "name": "Expedition Style Discovery",
+      "file": "./patterns/pattern-expedition-style-discovery.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "pattern-knowledge-trails",
+      "name": "Knowledge Trails",
+      "file": "./patterns/pattern-knowledge-trails.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "pattern-community-practice",
+      "name": "Community Practice",
+      "file": "./patterns/pattern-community-practice.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "pattern-delayed-productivity-metrics",
+      "name": "Delayed Productivity Metrics",
+      "file": "./patterns/pattern-delayed-productivity-metrics.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "pattern-fascination-before-efficiency",
+      "name": "Fascination Before Efficiency",
+      "file": "./patterns/pattern-fascination-before-efficiency.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "pattern-work-personal-integration",
+      "name": "Work-Personal Integration",
+      "file": "./patterns/pattern-work-personal-integration.json",
+      "maturity": "proven"
+    }
+  ],
+  "exercise_index": [
+    {
+      "id": "exercise-wonder-audit",
+      "name": "wonder_audit",
+      "file": "./exercises/exercise-wonder-audit.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "exercise-discovery-demos",
+      "name": "discovery_demos",
+      "file": "./exercises/exercise-discovery-demos.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "exercise-explorer-identification",
+      "name": "explorer_identification",
+      "file": "./exercises/exercise-explorer-identification.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "exercise-sandbox-setup",
+      "name": "sandbox_setup",
+      "file": "./exercises/exercise-sandbox-setup.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "exercise-champion-recruitment",
+      "name": "champion_recruitment",
+      "file": "./exercises/exercise-champion-recruitment.json",
+      "maturity": "tested"
+    },
+    {
+      "id": "exercise-guided-expeditions",
+      "name": "guided_expeditions",
+      "file": "./exercises/exercise-guided-expeditions.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "exercise-discovery-showcases",
+      "name": "discovery_showcases",
+      "file": "./exercises/exercise-discovery-showcases.json",
+      "maturity": "proven"
+    },
+    {
+      "id": "exercise-trail-capture-sprint",
+      "name": "trail_capture_sprint",
+      "file": "./exercises/exercise-trail-capture-sprint.json",
+      "maturity": "proven"
+    }
+  ],
+  "case_index": [
+    {
+      "id": "case-learning-effectiveness",
+      "name": "learning_effectiveness",
+      "file": "./cases/case-learning-effectiveness.json",
+      "confidence": "needs_packaging_for_external_use"
+    },
+    {
+      "id": "case-sustained-adoption",
+      "name": "sustained_adoption",
+      "file": "./cases/case-sustained-adoption.json",
+      "confidence": "needs_packaging_for_external_use"
+    },
+    {
+      "id": "case-community-formation",
+      "name": "community_formation",
+      "file": "./cases/case-community-formation.json",
+      "confidence": "strong_story_asset"
+    },
+    {
+      "id": "case-trail-library-growth",
+      "name": "trail_library_growth",
+      "file": "./cases/case-trail-library-growth.json",
+      "confidence": "strong_story_asset"
+    },
+    {
+      "id": "case-pizza-agent-case",
+      "name": "pizza_agent_case",
+      "file": "./cases/case-pizza-agent-case.json",
+      "confidence": "excellent_signature_story"
+    }
+  ],
+  "selected_proof_point_ids": [
+    "case-sustained-adoption",
+    "case-community-formation",
+    "case-pizza-agent-case"
+  ],
+  "roadmap": {
+    "status": "action_space",
+    "next_build_targets": [
+      {
+        "id": "build_01",
+        "name": "creativity_module_v0",
+        "type": "new_module",
+        "priority": "highest"
+      },
+      {
+        "id": "build_02",
+        "name": "exercise_library",
+        "type": "supporting_module",
+        "priority": "high"
+      },
+      {
+        "id": "build_03",
+        "name": "trail_template_variants",
+        "type": "operational_detail",
+        "priority": "high"
+      },
+      {
+        "id": "build_04",
+        "name": "discovery_interface_patterns",
+        "type": "ux_concept_space",
+        "priority": "high"
+      },
+      {
+        "id": "build_05",
+        "name": "repo_modularization_plan",
+        "type": "technical_packaging",
+        "priority": "later"
+      }
+    ]
+  }
+}

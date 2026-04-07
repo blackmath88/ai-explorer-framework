@@ -1,0 +1,35 @@
+{
+  "id": "module-scaling",
+  "title": "Scaling Adoption",
+  "purpose": "Transition from guided expeditions into repeatable organization-wide capability.",
+  "rationale": "Scaling requires proven patterns, visible proof points, and structures that keep exploration alive.",
+  "fit_in_phases": [
+    "stage_04: scale",
+    "practice_01: discover",
+    "practice_03: pioneer"
+  ],
+  "linked_principles": [
+    "trails_as_knowledge_artifacts",
+    "fascination_before_efficiency"
+  ],
+  "methods_activities": [
+    "exercise-guided-expeditions",
+    "exercise-trail-capture-sprint",
+    "exercise-discovery-showcases"
+  ],
+  "maturity": "tested",
+  "related_patterns": [
+    "pattern-community-practice",
+    "pattern-knowledge-trails"
+  ],
+  "related_exercises": [
+    "exercise-guided-expeditions",
+    "exercise-trail-capture-sprint",
+    "exercise-discovery-showcases"
+  ],
+  "related_cases": [
+    "case-trail-library-growth",
+    "case-community-formation",
+    "case-sustained-adoption"
+  ]
+}

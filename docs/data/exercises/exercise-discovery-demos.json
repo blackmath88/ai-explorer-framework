@@ -1,0 +1,15 @@
+{
+  "id": "exercise-discovery-demos",
+  "name": "discovery_demos",
+  "stage": "curiosity",
+  "type": "live_demo",
+  "purpose": "Create fast comprehension and excitement",
+  "instructions": [
+    "Prepare the live_demo setup for the curiosity stage.",
+    "Run the activity to create fast comprehension and excitement.",
+    "Capture observations, surprising moments, and transfer opportunities.",
+    "Produce the expected output: baseline_interest_and_confidence."
+  ],
+  "expected_output": "baseline_interest_and_confidence",
+  "maturity": "proven"
+}

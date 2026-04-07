@@ -1,0 +1,36 @@
+{
+  "id": "module-creativity",
+  "title": "Creativity",
+  "purpose": "Make explicit a capability currently implicit in the framework: perspective shift, constraint play, and prompt remix for AI exploration.",
+  "rationale": "Creativity is a priority candidate module to make exploration methods teachable and repeatable without over-structuring discovery.",
+  "fit_in_phases": [
+    "stage_01: curiosity",
+    "stage_03: ignite",
+    "practice_01: discover",
+    "practice_02: expand"
+  ],
+  "linked_principles": [
+    "creativity_unlocks_capability"
+  ],
+  "methods_activities": [
+    "constraint_play",
+    "perspective_shift_methods",
+    "prompt_remix_formats"
+  ],
+  "maturity": "raw",
+  "candidate_status": "priority_candidate",
+  "research_questions": [
+    "How should creativity be integrated as a formal module in the framework?",
+    "Which creativity methods best fit AI adoption: design thinking, double diamond, lateral thinking, or lightweight hybrids?",
+    "How much structure supports creativity before it becomes restrictive?"
+  ],
+  "related_patterns": [
+    "pattern-expedition-style-discovery"
+  ],
+  "related_exercises": [
+    "exercise-guided-expeditions"
+  ],
+  "related_cases": [
+    "case-pizza-agent-case"
+  ]
+}

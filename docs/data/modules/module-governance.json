@@ -1,0 +1,33 @@
+{
+  "id": "module-governance",
+  "title": "Governance for Exploration",
+  "purpose": "Package governance so exploration remains safe, compliant, and scalable without suppressing curiosity.",
+  "rationale": "Regulated environments need clear boundaries to support experimentation instead of blocking it.",
+  "fit_in_phases": [
+    "stage_02: basecamp",
+    "stage_04: scale"
+  ],
+  "linked_principles": [
+    "work_personal_integration"
+  ],
+  "methods_activities": [
+    "exercise-sandbox-setup"
+  ],
+  "maturity": "proven",
+  "objections_to_address": [
+    "we_need_productivity_now",
+    "this_is_too_expensive",
+    "people_will_waste_time",
+    "we_are_too_regulated",
+    "we_tried_exploration_before"
+  ],
+  "related_patterns": [
+    "pattern-work-personal-integration"
+  ],
+  "related_exercises": [
+    "exercise-sandbox-setup"
+  ],
+  "related_cases": [
+    "case-learning-effectiveness"
+  ]
+}

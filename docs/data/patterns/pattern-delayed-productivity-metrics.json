@@ -1,0 +1,18 @@
+{
+  "id": "pattern-delayed-productivity-metrics",
+  "name": "delayed_productivity_metrics",
+  "purpose": "Productivity metrics should appear only after fascination and practice have taken root",
+  "maturity": "proven",
+  "operating_mechanism": [
+    "Track experience and behavior in expedition phase",
+    "Delay ROI and efficiency targets",
+    "Introduce productivity metrics in harvest phase"
+  ],
+  "avoid_early": [
+    "roi",
+    "usage_quotas",
+    "task_efficiency",
+    "completion_rates",
+    "productivity_gains"
+  ]
+}
