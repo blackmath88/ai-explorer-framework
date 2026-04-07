@@ -30,4 +30,11 @@
     "default_pattern_sort": "id",
     "show_status_badges": true
   }
+  "title": "AI Explorer Framework",
+  "description": "A modular framework for organizing AI learning into modules, patterns, exercises, and cases.",
+  "objectives": [
+    "Keep content as editable JSON",
+    "Render all views from data files",
+    "Scale by adding files and folders, not framework complexity"
+  ]
 }
