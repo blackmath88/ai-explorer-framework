@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema-pattern.json",
+  "title": "Pattern",
+  "type": "object",
+  "required": ["id", "name", "intent", "when_to_use", "steps", "metadata"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^pat-[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "intent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "when_to_use": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "steps": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["status", "tags"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["draft", "review", "published", "archived"]
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

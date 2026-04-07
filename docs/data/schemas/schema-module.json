@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema-module.json",
+  "title": "Module",
+  "type": "object",
+  "required": ["id", "title", "summary", "learning_outcomes", "pattern_ids", "exercise_ids", "case_ids", "metadata"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^mod-[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "learning_outcomes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "pattern_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^pat-[a-z0-9-]+$"
+      }
+    },
+    "exercise_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^ex-[a-z0-9-]+$"
+      }
+    },
+    "case_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^case-[a-z0-9-]+$"
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["difficulty", "estimated_minutes", "status", "tags"],
+      "properties": {
+        "difficulty": {
+          "type": "string",
+          "enum": ["intro", "intermediate", "advanced"]
+        },
+        "estimated_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": ["draft", "review", "published", "archived"]
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

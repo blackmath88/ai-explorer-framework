@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema-case.json",
+  "title": "Case",
+  "type": "object",
+  "required": ["id", "title", "context", "challenge", "approach", "results", "metadata"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^case-[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "challenge": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approach": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "results": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["status", "tags"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["draft", "review", "published", "archived"]
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
