@@ -1,4 +1,13 @@
+<!-- BEGIN public-repo-header -->
+<div align="center">
+
 # ai-explorer-framework
+
+<a href="https://github.com/blackmath88/ai-explorer-framework/tree/main/docs"><img alt="Documentation" src="https://img.shields.io/badge/docs-guide-16796f?style=flat"></a>
+<a href="https://github.com/blackmath88/ai-explorer-framework/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/blackmath88/ai-explorer-framework?style=flat&amp;color=737373"></a>
+
+</div>
+<!-- END public-repo-header -->
 
 Static GitHub Pages viewer for the **AI Explorer Framework**, driven entirely by JSON files in `docs/data`.
 
